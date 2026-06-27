@@ -26,6 +26,15 @@
                 linear-gradient(to right, rgba(0, 245, 212, 0.03) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(0, 245, 212, 0.03) 1px, transparent 1px);
         }
+        /* Tambahkan ini di dalam tag <style> paling atas dokumen Anda */
+@keyframes joss-pulse {
+    0%, 100% { transform: scale(1); box-shadow: 0 10px 25px -5px rgba(255, 107, 0, 0.4); }
+    50% { transform: scale(1.04); box-shadow: 0 20px 35px -5px rgba(255, 107, 0, 0.7); }
+}
+.tombol-pulse {
+    animation: joss-pulse 2s infinite ease-in-out;
+} /* SIKU DI SINI SUDAH DIGANTI JADI KURUNG KURAWAL BIASA */
+</style>
     </style>
 </head>
 <body class="text-slate-300 antialiased autocad-grid">
